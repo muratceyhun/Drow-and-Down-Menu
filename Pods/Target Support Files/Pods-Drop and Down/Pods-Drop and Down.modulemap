@@ -1,0 +1,6 @@
+framework module Pods_Drop_and_Down {
+  umbrella header "Pods-Drop and Down-umbrella.h"
+
+  export *
+  module * { export * }
+}

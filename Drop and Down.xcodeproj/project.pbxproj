@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21270F61F48C411702E357A9 /* Pods_Drop_and_Down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4936762223A633395992D47 /* Pods_Drop_and_Down.framework */; };
+		4323505429B38E18001E2EFF /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323505229B38E18001E2EFF /* DropDownCell.swift */; };
+		4323505529B38E18001E2EFF /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4323505329B38E18001E2EFF /* DropDownCell.xib */; };
 		4343419229B370CF002DFDF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343419129B370CF002DFDF7 /* AppDelegate.swift */; };
 		4343419429B370CF002DFDF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343419329B370CF002DFDF7 /* SceneDelegate.swift */; };
 		4343419629B370CF002DFDF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343419529B370CF002DFDF7 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A697B9847A20DF5C72C9742 /* Pods-Drop and Down.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drop and Down.release.xcconfig"; path = "Target Support Files/Pods-Drop and Down/Pods-Drop and Down.release.xcconfig"; sourceTree = "<group>"; };
+		4323505229B38E18001E2EFF /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		4323505329B38E18001E2EFF /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
 		4343418E29B370CF002DFDF7 /* Drop and Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop and Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4343419129B370CF002DFDF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4343419329B370CF002DFDF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		4343419A29B370D0002DFDF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4343419D29B370D0002DFDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4343419F29B370D0002DFDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8085CCA47E01583AFD095129 /* Pods-Drop and Down.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drop and Down.debug.xcconfig"; path = "Target Support Files/Pods-Drop and Down/Pods-Drop and Down.debug.xcconfig"; sourceTree = "<group>"; };
+		A4936762223A633395992D47 /* Pods_Drop_and_Down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drop_and_Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21270F61F48C411702E357A9 /* Pods_Drop_and_Down.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				4343419029B370CF002DFDF7 /* Drop and Down */,
 				4343418F29B370CF002DFDF7 /* Products */,
+				BE1A854C918F4BD7EF5CF2A6 /* Pods */,
+				FC343DE7958C4F3F7E484962 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +74,27 @@
 				4343419A29B370D0002DFDF7 /* Assets.xcassets */,
 				4343419C29B370D0002DFDF7 /* LaunchScreen.storyboard */,
 				4343419F29B370D0002DFDF7 /* Info.plist */,
+				4323505229B38E18001E2EFF /* DropDownCell.swift */,
+				4323505329B38E18001E2EFF /* DropDownCell.xib */,
 			);
 			path = "Drop and Down";
+			sourceTree = "<group>";
+		};
+		BE1A854C918F4BD7EF5CF2A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8085CCA47E01583AFD095129 /* Pods-Drop and Down.debug.xcconfig */,
+				3A697B9847A20DF5C72C9742 /* Pods-Drop and Down.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC343DE7958C4F3F7E484962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4936762223A633395992D47 /* Pods_Drop_and_Down.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 434341A229B370D0002DFDF7 /* Build configuration list for PBXNativeTarget "Drop and Down" */;
 			buildPhases = (
+				B60293809C745C7FE7704276 /* [CP] Check Pods Manifest.lock */,
 				4343418A29B370CF002DFDF7 /* Sources */,
 				4343418B29B370CF002DFDF7 /* Frameworks */,
 				4343418C29B370CF002DFDF7 /* Resources */,
+				A71EF5DCDDFF431714CDABD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4343419E29B370D0002DFDF7 /* LaunchScreen.storyboard in Resources */,
+				4323505529B38E18001E2EFF /* DropDownCell.xib in Resources */,
 				4343419B29B370D0002DFDF7 /* Assets.xcassets in Resources */,
 				4343419929B370CF002DFDF7 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +166,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A71EF5DCDDFF431714CDABD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drop and Down/Pods-Drop and Down-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drop and Down/Pods-Drop and Down-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Drop and Down/Pods-Drop and Down-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60293809C745C7FE7704276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drop and Down-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4343418A29B370CF002DFDF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4343419629B370CF002DFDF7 /* ViewController.swift in Sources */,
+				4323505429B38E18001E2EFF /* DropDownCell.swift in Sources */,
 				4343419229B370CF002DFDF7 /* AppDelegate.swift in Sources */,
 				4343419429B370CF002DFDF7 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		434341A329B370D0002DFDF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8085CCA47E01583AFD095129 /* Pods-Drop and Down.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +370,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +379,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.muratceyhun.Drop-and-Down";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		434341A429B370D0002DFDF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A697B9847A20DF5C72C9742 /* Pods-Drop and Down.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +402,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +411,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.muratceyhun.Drop-and-Down";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
