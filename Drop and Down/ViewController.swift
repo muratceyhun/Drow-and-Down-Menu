@@ -41,11 +41,8 @@ class ViewController: UIViewController {
         topView.addGestureRecognizer(gesture)
         menu.selectionAction = { index, title in
             print("index  \(index) and \(title)")
-            
         }
-        
     }
-    
     @objc func didClickedTopItem() {
         menu.show()
         
