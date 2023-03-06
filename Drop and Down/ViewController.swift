@@ -45,7 +45,6 @@ class ViewController: UIViewController {
     }
     @objc func didClickedTopItem() {
         menu.show()
-        
     }
 }
 
